@@ -33,7 +33,7 @@ function showAlert(){
 
 $(function() {
 
-  if (window.Notification){
+  // if (window.Notification){
 
     requestPermission();
 
@@ -44,6 +44,6 @@ $(function() {
       showAlert();
     }, interval);
 
-  }
+  // }
 
 });
