@@ -18,7 +18,7 @@ function showAlert(){
         body: 'Hey bro, sit up straight!!',
         iconUrl: 'http://raphaelgmelo.github.io/sit-up-straight/approves.jpg', // Firefox
         icon: 'http://raphaelgmelo.github.io/sit-up-straight/approves.jpg', // Chrome
-      }
+      });
 
   notification.onclick(function(){
     notification.close();
